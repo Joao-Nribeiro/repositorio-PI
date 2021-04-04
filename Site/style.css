@@ -1,0 +1,178 @@
+/* GERAL */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*MUDAR FONTE*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.btn-orange {
+  background-color: orangered;
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+/* INICIO ESTILO HEADE*/
+.header {
+  background-color: #232323;
+  width: 100%;
+  height: 80px;
+  border-bottom: solid orangered 3px;
+}
+.header h1 {
+  float: left;
+  color: white;
+}
+
+/*TIRA AS 'BOLINHAS' DA LISTA*/
+.header ul {
+  list-style: none;
+  float: right;
+}
+
+/*ESPAÇAR INTENS*/
+.header h1,
+.header ul {
+  margin-top: 17px;
+}
+
+/*COLOCAR LISTA HORIZINTAL*/
+.header li {
+  display: inline-block;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+/*TIRA O ESTILO DE LINK*/
+.header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*MUDAR A COR DE UM ELEMENTO*/
+.header .text-orange {
+  color: orangered;
+  font-weight: bold;
+}
+
+/*HEADER FIM*/
+
+/*INICIO BANNER*/
+
+.banner {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-image: url("./img/banner-fundo.jpeg");
+  background-size: cover;
+}
+.banner h1 {
+  padding-top: 150px;
+  font-size: 40px;
+  color: orangered;
+}
+.banner h3 {
+  font-size: 25;
+  font-weight: lighter;
+  margin-top: 15px;
+  color: #232323;
+}
+
+/*FIM BANNER*/
+
+/*INICIO NOVIDADES*/
+.news {
+  width: 100%;
+  height: 80px;
+  background-color: #232323;
+  text-align: center;
+}
+.news button {
+  margin: 22px;
+}
+/*FIM NOVIDADES*/
+
+/*missão, visão, valores inicio*/
+.box {
+  text-align: center;
+}
+.box-item {
+  display: inline-block;
+  width: 33%;
+}
+.box-item img {
+  width: 100px;
+  margin-top: 35px;
+}
+.box-item h3,
+.box-item p {
+  margin-top: 15px;
+}
+/*missão, visão, valores fim*/
+
+/*Pagina sobre*/
+
+.sobre {
+  background-color: #232323;
+  text-align: center;
+}
+
+.container-sobre{
+  padding-bottom: 50px;
+  border-bottom: 3px solid orangered
+}
+p {
+  color: white;
+  font-size: large;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.container-sobre h1{
+  color: orangered;
+  padding-bottom: 32.5px;
+  padding-top: 75px;
+}
+
+.container-sobre img{
+  margin-top: 50px;
+}
+
+.equipe {
+  padding-top: 50px;
+  color: orangered;
+  font-size: 20px;
+}
+
+.adm {
+ width: 150px;
+ padding-right: 100px;
+}
+
+.prog {
+  width: 150px;
+  padding-right: 100px;
+}
+
+.esc {
+  width: 150px;
+  padding-right: 100px;
+}
+
+.nomes {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
